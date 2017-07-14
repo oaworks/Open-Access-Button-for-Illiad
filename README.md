@@ -6,6 +6,6 @@ If successful, it'll look something like the below (but in the ILLiad interface)
 
 ![fingers crossed!](https://github.com/OAButton/Open-Access-Button-for-Illiad/blob/master/if_all_is_well.png?raw=true)
 
-# Contributing
+# Contributing
 
 We'll keep issues [here](https://github.com/OAButton/discussion/issues).
