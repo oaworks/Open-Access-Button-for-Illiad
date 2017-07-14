@@ -1,0 +1,22 @@
+<Configuration>
+	<Name>Open Access Search</Name>
+	<Author>Open Access Button</Author>
+	<Version>0.1</Version>
+	<Active>true</Active>
+
+	<Description>Performs an Open Access Button search for the PhotoArticleTitle for articles.</Description>
+
+	<Forms>
+		<Form>FormRequest</Form>
+	</Forms>
+
+	<Settings>
+		<Setting name='AutoSearch' value='false' type='boolean'>
+			<Description>Defines whether the search should be automatically performed when the form opens.</Description>
+		</Setting>
+	</Settings>
+
+	<Files>
+		<File>OpenAccessSearch.lua</File>
+	</Files>
+</Configuration>
