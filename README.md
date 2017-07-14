@@ -5,3 +5,7 @@ Currently pre-alpha (aka, it likely won't work), with next to no idea if this wi
 If successful, it'll look something like the below (but in the ILLiad interface).
 
 ![fingers crossed!](https://github.com/OAButton/Open-Access-Button-for-Illiad/blob/master/if_all_is_well.png?raw=true)
+
+# Contributing
+
+We'll keep issues [here](https://github.com/OAButton/discussion/issues).
