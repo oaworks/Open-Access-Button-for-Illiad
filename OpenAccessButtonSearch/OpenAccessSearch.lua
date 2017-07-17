@@ -9,19 +9,31 @@
 local autoSearch = GetSetting("AutoSearch");
 
 local interfaceMngr = nil;
-local browser = nil;
+local oaButtonForm = {};
+oaButtonForm.Form = nil;
+oaButtonForm.Browser = nil;
+oaButtonForm.RibbonPage = nil;
+
+require "Atlas.AtlasHelpers";
 
 function Init()
 	if GetFieldValue("Transaction", "RequestType") == "Article" then
 		interfaceMngr = GetInterfaceManager();
 
+		-- Create a form
+		oaButtonForm.Form = interfaceMngr:CreateForm ("OA Button Search", "Script");
+
 		-- Create browser
-		browser = interfaceMngr:CreateBrowser("Google Scholar Search", "Google Scholar Search", "Script");
+		oaButtonForm.Browser = oaButtonForm.Form:CreateBrowser("OA Button Search", "OA Button Search Browser", "OA Button Search");
+
+		-- Since we didn't create a ribbon explicitly before creating our browser, it will have created one using the name we passed the CreateBrowser method.  We can retrieve that one and add our buttons to it.
+		oaButtonForm.RibbonPage = oaButtonForm.Form:GetRibbonPage("OA Button Search");
 
 		-- Create buttons
-		browser:CreateButton("Search", GetClientImage("Search32"), "Search", "Google Scholar");
+		oaButtonForm.RibbonPage:CreateButton("Search", GetClientImage("Search32"), "Search", "OA Button");
 
-		browser:Show();
+		-- After we add all of our buttons and form elements, we can show the form.
+		oaButtonForm.Form:Show();
 
 		if autoSearch then
 			Search();
@@ -30,5 +42,5 @@ function Init()
 end
 
 function Search()
-	browser:Navigate("http://scholar.google.com/scholar?q=" .. GetFieldValue("Transaction", "PhotoArticleTitle"));
+	oaButtonForm.Browser:Navigate("http://openaccessbutton.org/?url=" .. AtlasHelpers.UrlEncode(GetFieldValue("Transaction", "PhotoArticleTitle")));
 end

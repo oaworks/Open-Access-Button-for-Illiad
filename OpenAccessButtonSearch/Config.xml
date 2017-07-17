@@ -11,7 +11,7 @@
 	</Forms>
 
 	<Settings>
-		<Setting name='AutoSearch' value='false' type='boolean'>
+		<Setting name='AutoSearch' value='true' type='boolean'>
 			<Description>Defines whether the search should be automatically performed when the form opens.</Description>
 		</Setting>
 	</Settings>
