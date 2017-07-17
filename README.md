@@ -14,7 +14,7 @@ For the most up to date version, download straight for Github as seen here.
 
 The add-on is the folder within the folder you've downloaded.
 
-If you can't do that, try [this link](https://www.dropbox.com/sh/3clxn8ydqxg7uxf/AACWkkGZGJdsdQ92OOMDkiUPa?dl=0).
+If you can't do that, try [this link](https://www.dropbox.com/sh/4s3y6f19ys6lrht/AACBngD8xGqxeleMEbXT4ADaa?dl=0).
 
 # Contributing
 
