@@ -6,15 +6,17 @@ If successful, it'll look something like the below (but in the ILLiad interface)
 
 ![fingers crossed!](https://github.com/OAButton/Open-Access-Button-for-Illiad/blob/master/if_all_is_well.png?raw=true)
 
-# Download
+<!-- When updating the download link remember to do both links! -->
 
-For the most up to date version, download straight for Github as seen here.
+# [Download](https://github.com/OAButton/Open-Access-Button-for-Illiad/archive/v.03-alpha.zip)
+
+To get our most recent, stable version, [dowload it here](https://github.com/OAButton/Open-Access-Button-for-Illiad/archive/v.03-alpha.zip).
+
+For the most up to date version (which may have bugs), download straight for Github as seen here.
 
 ![download gif](http://recordit.co/bBXNOGmkMk.gif)
 
 The add-on is the folder within the folder you've downloaded.
-
-If you can't do that, try [this link](https://www.dropbox.com/sh/4s3y6f19ys6lrht/AACBngD8xGqxeleMEbXT4ADaa?dl=0).
 
 # Contributing
 
