@@ -42,5 +42,5 @@ function Init()
 end
 
 function Search()
-	oaButtonForm.Browser:Navigate("http://openaccessbutton.org/?from=illiad&url=" .. AtlasHelpers.UrlEncode(GetFieldValue("Transaction", "PhotoArticleTitle")));
+	oaButtonForm.Browser:Navigate("http://dev.openaccessbutton.org/?from=illiad&url=" .. AtlasHelpers.UrlEncode(GetFieldValue("Transaction", "PhotoArticleTitle")));
 end
